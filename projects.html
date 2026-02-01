@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mohamed Moawad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Mohamed Moawad</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <h2>My Projects</h2>
+        <p>Here are some of the websites I have built:</p>
+        
+        <div class="project-grid">
+            
+            <article class="card">
+                <img src="images/project1.jpg" alt="Sneaker Shop Website" style="width:100%">
+                <h3>Sneaker Shop</h3>
+                <p>A modern e-commerce layout for a sneaker store featuring product displays.</p>
+                <p><strong>Tech:</strong> HTML, CSS</p>
+            </article>
+
+            <article class="card">
+                <img src="images/project2.jpg" alt="Flower Shop Website" style="width:100%">
+                <h3>Flower Boutique</h3>
+                <p>A colorful landing page for a flower shop with a gallery section.</p>
+                <p><strong>Tech:</strong> HTML, CSS</p>
+            </article>
+
+            <article class="card">
+                <img src="images/project3.jpg" alt="Fast Food Website" style="width:100%">
+                <h3>Fast Food Restaurant</h3>
+                <p>An interactive menu website for a Burger & Pizza restaurant.</p>
+                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            </article>
+
+            <article class="card">
+                <img src="images/project4.jpg" alt="Clothing Store Website" style="width:100%">
+                <h3>Fashion Store</h3>
+                <p>A responsive clothing store website with categories and offers.</p>
+                <p><strong>Tech:</strong> HTML, CSS, Bootstrap</p>
+            </article>
+        </div>
+
+        <hr>
+
+        <section class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="name">Name (Required):</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email (Required):</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="01xxxxxxxxx">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message (Min 10 chars):</label>
+                    <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mohamed Moawad. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
