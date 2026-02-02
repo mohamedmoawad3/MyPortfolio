@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Projects - Mohamed Moawad</title>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,44 +23,45 @@
 
     <main class="container">
         
-        <h2>My Projects</h2>
-        <p>Here are some of the websites I have built:</p>
-        
-        <div class="project-grid">
+        <section class="projects">
+            <h2>My Projects</h2>
+            <p>Here are some of the websites I have built:</p>
             
-            <article class="card">
-                <img src="https://github.com/mohamedmoawad3/MyPortfolio/blob/main/project1.jpg?raw=true" alt="Sneaker Shop Website" style="width:100%">
-                <h3>Sneaker Shop</h3>
-                <p>A modern e-commerce layout for a sneaker store featuring product displays.</p>
-                <p><strong>Tech:</strong> HTML, CSS</p>
-            </article>
+            <div class="project-grid">
+                
+                <article class="card">
+                    <img src="https://github.com/mohamedmoawad3/MyPortfolio/blob/main/project1.jpg?raw=true" alt="Sneaker Shop Website" style="width:100%">
+                    <h3>Sneaker Shop</h3>
+                    <p>A modern e-commerce layout for a sneaker store featuring product displays.</p>
+                    <p><strong>Tech:</strong> HTML, CSS</p>
+                </article>
 
-            <article class="card">
-                <img src="project2.jpg" alt="Flower Shop Website" style="width:100%">
-                <h3>Flower Boutique</h3>
-                <p>A colorful landing page for a flower shop with a gallery section.</p>
-                <p><strong>Tech:</strong> HTML, CSS</p>
-            </article>
+                <article class="card">
+                    <img src="project2.jpg" alt="Flower Shop Website" style="width:100%">
+                    <h3>Flower Boutique</h3>
+                    <p>A colorful landing page for a flower shop with a gallery section.</p>
+                    <p><strong>Tech:</strong> HTML, CSS</p>
+                </article>
 
-            <article class="card">
-                <img src="project3.jpg" alt="Fast Food Website" style="width:100%">
-                <h3>Fast Food Restaurant</h3>
-                <p>An interactive menu website for a Burger & Pizza restaurant.</p>
-                <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-            </article>
+                <article class="card">
+                    <img src="project3.jpg" alt="Fast Food Website" style="width:100%">
+                    <h3>Fast Food Restaurant</h3>
+                    <p>An interactive menu website for a Burger & Pizza restaurant.</p>
+                    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                </article>
 
-            <article class="card">
-                <img src="project4.jpg" alt="Clothing Store Website" style="width:100%">
-                <h3>Fashion Store</h3>
-                <p>A responsive clothing store website with categories and offers.</p>
-                <p><strong>Tech:</strong> HTML, CSS, Bootstrap</p>
-            </article>
-        </div>
+                <article class="card">
+                    <img src="project4.jpg" alt="Clothing Store Website" style="width:100%">
+                    <h3>Fashion Store</h3>
+                    <p>A responsive clothing store website with categories and offers.</p>
+                    <p><strong>Tech:</strong> HTML, CSS, Bootstrap</p>
+                </article>
+            </div>
+        </section>
 
-        <hr>
-
-        <section id="contact" class="contact-section">
+        <hr> <section id="contact" class="contact-section">
             <h2>Contact Me</h2>
+            
             <form action="#" method="POST">
                 
                 <div class="form-group">
@@ -73,7 +76,17 @@
 
                 <div class="form-group">
                     <label for="phone">Phone Number (Optional):</label>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="01xxxxxxxxx">
+                    <input type="tel" 
+                           id="phone" 
+                           name="phone" 
+                           pattern="[0-9]{11}" 
+                           title="Please enter a valid 11-digit phone number"
+                           placeholder="01xxxxxxxxx">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
                 </div>
 
                 <div class="form-group">
