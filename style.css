@@ -201,32 +201,27 @@ footer {
         margin-top: 20px;
     }
 }
-/* =========================================
-   Spacing Fixes (تعديل المسافات)
-   ========================================= */
 
-/* توسيع المسافة فوق وتحت العناوين */
+/* Spacing Fixes  */
+
 .container h2 {
-    margin-top: 40px !important;    /* مسافة كبيرة فوق العنوان */
-    margin-bottom: 20px !important; /* مسافة تحت العنوان */
+    margin-top: 40px !important;    
+    margin-bottom: 20px !important; 
     color: #2c3e50;
 }
 
-/* توسيع المسافة بين الفقرات والسطور */
 .container p {
-    margin-bottom: 25px !important; /* مسافة تحت كل فقرة */
-    line-height: 1.8 !important;    /* يوسع المسافة بين السطور وبعضها */
-    font-size: 18px;                /* يكبر الخط سنة بسيطة للقراءة */
+    margin-bottom: 25px !important; 
+    line-height: 1.8 !important;    
+    font-size: 18px;                
 }
 
-/* توسيع المسافة حول الخط الفاصل */
 .container hr {
-    margin: 40px 0 !important;      /* مسافة كبيرة فوق وتحت الخط */
+    margin: 40px 0 !important;      
     border: 0;
     border-top: 1px solid #ccc;
 }
 
-/* توسيع القوائم */
 .container ul {
     margin-bottom: 30px !important;
     line-height: 1.8 !important;
