@@ -191,4 +191,22 @@ footer {
         padding-right: 0;
         margin-top: 20px;
     }
+    
+/* Add spacing around headings to separate sections clearly */
+h2 {
+    margin-top: 30px;    /* Pushes the heading down from the previous section */
+    margin-bottom: 15px; /* Adds breathing room below the heading */
+}
+
+/* Style paragraphs for better reading experience */
+p {
+    margin-bottom: 20px; /* Adds space between paragraphs */
+    line-height: 1.8;    /* Increases space between lines (better for large text) */
+}
+
+/* Ensure lists match the paragraph spacing */
+ul {
+    margin-bottom: 20px; /* Adds space below the list */
+    line-height: 1.8;    /* Consistent line height with paragraphs */
+}
 }
