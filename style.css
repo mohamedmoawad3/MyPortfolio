@@ -191,35 +191,4 @@ footer {
         padding-right: 0;
         margin-top: 20px;
     }
-} /* <--- ده القوس اللي كان ناقص وقفلناه هنا */
-
-
-/* =========================================
-   Typography & Spacing Updates
-   (Added below to keep original design intact)
-   ========================================= */
-
-/* Make paragraphs inside the main container readable */
-.container p {
-    margin-bottom: 30px !important; /* Space between paragraphs */
-    line-height: 2.0 !important;    /* Space between lines */
-    font-size: 18px;
-}
-
-/* Add space above and below headings */
-.container h1, 
-.container h2, 
-.container h3 {
-    margin-top: 40px !important;
-    margin-bottom: 20px !important;
-}
-
-/* Add space to lists */
-.container ul {
-    margin-bottom: 30px;
-    line-height: 1.8;
-}
-
-.container hr {
-    margin: 40px 0;
 }
