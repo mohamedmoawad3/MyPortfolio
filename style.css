@@ -201,12 +201,12 @@ h2 {
 /* Style paragraphs for better reading experience */
 p {
     margin-bottom: 20px; /* Adds space between paragraphs */
-    line-height: 1.8;    /* Increases space between lines (better for large text) */
+    line-height: 30;    /* Increases space between lines (better for large text) */
 }
 
 /* Ensure lists match the paragraph spacing */
 ul {
     margin-bottom: 20px; /* Adds space below the list */
-    line-height: 1.8;    /* Consistent line height with paragraphs */
+    line-height: 30;    /* Consistent line height with paragraphs */
 }
 }
